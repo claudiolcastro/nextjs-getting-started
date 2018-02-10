@@ -1,8 +1,8 @@
-import Link from 'next/link'
+import Layout from '../components/myLayout'
+import Header from '../components/header'
 
 export default () => (
-  <div>
+  <Layout>
     <h2>About us</h2>
-    <Link href='/index'>home</Link>
-  </div>
+  </Layout>
 )
